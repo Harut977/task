@@ -1,0 +1,19 @@
+package com.task.api.base.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.util.List;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class AllBaseResponse<T> {
+
+    private List<T> objects;
+
+    private long count;
+}
