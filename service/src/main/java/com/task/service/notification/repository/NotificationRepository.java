@@ -8,10 +8,22 @@ import org.springframework.stereotype.Repository;
 
 import javax.transaction.Transactional;
 
+/**
+ * NotificationRepository is the repository class for the notifications, which is extended from the JpaRepository class,
+ * including the NotificationEntity in it.
+ *
+ * @author Harut
+ * @since 12.17.2020
+ */
 @Repository
 public interface NotificationRepository extends JpaRepository<NotificationEntity, Long> {
 
-
+    /**
+     * updates the flag of the notification
+     *
+     * @param id        of the notification
+     * @param delivered the delivery of the notification
+     */
     @Modifying
     @Transactional
     @Query("UPDATE NotificationEntity e SET e.delivered = ?2 where e.id = ?1 ")

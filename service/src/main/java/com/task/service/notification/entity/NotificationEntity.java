@@ -12,6 +12,13 @@ import javax.persistence.Entity;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+/**
+ * The NotificationEntity class is used for saving and getting the notifications from the database, which is extended
+ * from the main entity class BaseEntity.
+ *
+ * @author Harut
+ * @since 12.17.2020
+ */
 @Data
 @Entity
 @Builder

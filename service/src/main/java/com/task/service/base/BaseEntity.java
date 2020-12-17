@@ -1,22 +1,23 @@
 package com.task.service.base;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.MappedSuperclass;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
-@Getter
-@Setter
+/**
+ * The BaseEntity is main entity class for the data that is being saved in the database.
+ * It is implementing from the Serializable interface.
+ *
+ * @author Harut
+ * @since 12.17.2020
+ */
+@Data
 @MappedSuperclass
 @NoArgsConstructor
 @AllArgsConstructor

@@ -1,12 +1,19 @@
 package com.task.api.base.response;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@Getter
-@Setter
+/**
+ * Response is all the responses, through which is put the data here, it's success
+ * and a message for the response.
+ *
+ * @param <T> represents the type of a response which is given to the class
+ * @author Harut
+ * @since 12.17.2020
+ */
+
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class Response<T> {
