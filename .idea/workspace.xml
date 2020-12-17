@@ -4,46 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42cae5b9-d55f-45f9-9098-03c518b93453" name="Default Changelist" comment="project finished">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/task/api/base/response/BaseResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/task/api/base/response/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/task/api/comment/CommentApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/task/api/comment/request/CommentRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/task/api/comment/response/CommentResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/task/api/notification/NotificationApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/task/api/notification/response/NotificationResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/task/ServletInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/task/TaskApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/task/server/controller/comment/CommentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/task/server/controller/notification/NotificationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/base/BaseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/entity/CommentEntity$CommentEntityBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/entity/CommentEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/mapper/CommentMapper$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/mapper/CommentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/repository/CommentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/service/CommentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/service/impl/CommentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/handler/ErrorCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/handler/ErrorFieldResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/handler/ErrorResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/handler/ExceptionHandlingController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/handler/ValidationError.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/models/BaseException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/helper/BusinessLogic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/entity/NotificationEntity$NotificationEntityBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/entity/NotificationEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/mapper/NotificationMapper$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/mapper/NotificationMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/repository/NotificationRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/service/NotificationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/service/impl/NotificationServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/validator/RequestFieldsValidator.class" beforeDir="false" />
-    </list>
+    <list default="true" id="42cae5b9-d55f-45f9-9098-03c518b93453" name="Default Changelist" comment="project finished" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,7 +144,7 @@
       <workItem from="1608145795222" duration="34000" />
       <workItem from="1608194692955" duration="624000" />
       <workItem from="1608195360972" duration="331000" />
-      <workItem from="1608195710734" duration="36583000" />
+      <workItem from="1608195710734" duration="36904000" />
     </task>
     <task id="LOCAL-00001" summary="added documentation comments to classes and methods">
       <created>1608209365148</created>
@@ -206,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608234266080</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="project finished">
+      <created>1608234697402</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608234697402</updated>
+    </task>
+    <task id="LOCAL-00005" summary="project finished">
+      <created>1608234706813</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608234706813</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
