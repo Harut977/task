@@ -1,7 +1,6 @@
 package com.task.server.controller.notification;
 
 import com.task.api.base.response.Response;
-import com.task.api.comment.response.CommentResponse;
 import com.task.api.notification.NotificationApi;
 import com.task.api.notification.response.NotificationResponse;
 import com.task.service.notification.service.NotificationService;
@@ -9,7 +8,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
-
 import java.util.List;
 
 /**

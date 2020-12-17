@@ -1,10 +1,7 @@
 package com.task.api.comment.response;
 
 import com.task.api.base.response.BaseResponse;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 /**
  * This CommentResponse is the response class for the comments. It is extended from the BaseResponse class.

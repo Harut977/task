@@ -1,5 +1,6 @@
 package com.task.service.comment.service;
 
+import com.task.api.base.response.SuccessResponse;
 import com.task.api.comment.request.CommentRequest;
 import com.task.api.comment.response.CommentResponse;
 
@@ -20,7 +21,7 @@ public interface CommentService {
      * @param commentRequest the request of the comment that is being created
      * @return the boolean result of the creation
      */
-    boolean createComment(CommentRequest commentRequest);
+    SuccessResponse createComment(CommentRequest commentRequest);
 
     /**
      * the comments can be gotten, using the pagination of them

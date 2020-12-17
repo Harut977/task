@@ -1,5 +1,6 @@
 package com.task.service.comment.mapper;
 
+import com.task.api.base.response.SuccessResponse;
 import com.task.api.comment.request.CommentRequest;
 import com.task.api.comment.response.CommentResponse;
 import com.task.service.comment.entity.CommentEntity;
@@ -46,6 +47,14 @@ public class CommentMapper {
     public List<CommentResponse> fromCommentEntityListToCommentResponseList(List<CommentEntity> commentEntities) {
         return modelMapper.map(commentEntities, new TypeToken<List<CommentResponse>>() {
         }.getType());
+
+    }
+
+    public SuccessResponse fromCommentEntityToSuccessResponse(CommentEntity savedCommentEntity, boolean success) {
+        return SuccessResponse.builder()
+                .objectId(savedCommentEntity.getId())
+                .success(success)
+                .build();
 
     }
 }

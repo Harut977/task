@@ -28,4 +28,19 @@ public interface NotificationRepository extends JpaRepository<NotificationEntity
     @Transactional
     @Query("UPDATE NotificationEntity e SET e.delivered = ?2 where e.id = ?1 ")
     void updateDeliveredFlag(Long id, boolean delivered);
+
+    /**
+     * @return count notification when delivered true
+     */
+    long countByDeliveredTrue();
+
+
+    /**
+     * checks whether there is a notification with the comment id or not
+     *
+     * @param commentEntity_Id the id of the comment being passed to the method
+     * @return boolean value showing its' existence
+     */
+    Boolean existsByCommentEntity_Id(Long commentEntity_Id);
+
 }

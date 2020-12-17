@@ -19,7 +19,7 @@ public interface NotificationService {
      *
      * @param commentEntity the entity of the comment given to the creation of notification
      */
-    void create(final CommentEntity commentEntity);
+    void create(CommentEntity commentEntity);
 
     /**
      * method to get all the notifications, by passing the pagination to it and getting the notifications as a List
@@ -28,5 +28,5 @@ public interface NotificationService {
      * @param pageNumber the number of pages with notifications
      * @return the List of NotificationResponse
      */
-    List<NotificationResponse> getNotifications(final int pageSize,final int pageNumber);
+    List<NotificationResponse> getNotifications(int pageSize, int pageNumber);
 }

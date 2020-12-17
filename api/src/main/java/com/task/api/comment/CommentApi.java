@@ -1,6 +1,7 @@
 package com.task.api.comment;
 
 import com.task.api.base.response.Response;
+import com.task.api.base.response.SuccessResponse;
 import com.task.api.comment.request.CommentRequest;
 import com.task.api.comment.response.CommentResponse;
 import org.springframework.http.ResponseEntity;
@@ -29,7 +30,7 @@ public interface CommentApi {
      * @return a boolean expression whether the comment was successfully written or not
      */
     @PostMapping
-    ResponseEntity<Response<Boolean>> createComment(
+    ResponseEntity<Response<SuccessResponse>> createComment(
             @Valid @RequestBody CommentRequest commentRequest,
             Errors errors);
 

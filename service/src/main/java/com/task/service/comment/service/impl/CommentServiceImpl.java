@@ -1,19 +1,19 @@
 package com.task.service.comment.service.impl;
 
-import com.task.service.exception.models.NotReadException;
+import com.task.api.base.response.SuccessResponse;
 import com.task.api.comment.request.CommentRequest;
 import com.task.api.comment.response.CommentResponse;
 import com.task.service.comment.entity.CommentEntity;
 import com.task.service.comment.mapper.CommentMapper;
 import com.task.service.comment.repository.CommentRepository;
 import com.task.service.comment.service.CommentService;
+import com.task.service.exception.models.NotReadException;
 import com.task.service.helper.BusinessLogic;
 import com.task.service.notification.service.NotificationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 /**
@@ -50,12 +50,10 @@ public class CommentServiceImpl implements CommentService {
      * @return a boolean result of the creation of the comment
      */
     @Override
-    public boolean createComment(final CommentRequest commentRequest) {
+    public SuccessResponse createComment(final CommentRequest commentRequest) {
 
         //saving the entity of the comment to the database and getting the entity
-        CommentEntity savedCommentEntity = commentRepository
-                .save(commentMapper.fromCommentRequestToCommentEntity(
-                        commentRequest));
+        CommentEntity savedCommentEntity = commentRepository.save(commentMapper.fromCommentRequestToCommentEntity(commentRequest));
 
         //throwing exception in a random way
         try {
@@ -63,9 +61,9 @@ public class CommentServiceImpl implements CommentService {
             new Thread(() -> notificationService.create(savedCommentEntity)).start();
         } catch (RuntimeException e) {
             commentRepository.delete(savedCommentEntity);
-            return false;
+            return commentMapper.fromCommentEntityToSuccessResponse(savedCommentEntity, false);
         }
-        return true;
+        return commentMapper.fromCommentEntityToSuccessResponse(savedCommentEntity, true);
     }
 
     /**

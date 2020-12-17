@@ -22,5 +22,5 @@ public class Response<T> {
 
     private String message;
 
-    private T date;
+    private T data;
 }

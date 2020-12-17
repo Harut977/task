@@ -1,6 +1,7 @@
 package com.task.server.controller.comment;
 
 import com.task.api.base.response.Response;
+import com.task.api.base.response.SuccessResponse;
 import com.task.api.comment.CommentApi;
 import com.task.api.comment.request.CommentRequest;
 import com.task.api.comment.response.CommentResponse;
@@ -44,7 +45,7 @@ public class CommentController implements CommentApi {
      * @return the boolean response representing it is created successfully or not
      */
     @Override
-    public ResponseEntity<Response<Boolean>> createComment(
+    public ResponseEntity<Response<SuccessResponse>> createComment(
             final CommentRequest commentRequest, final Errors errors) {
 
         //validates the request, for not being null
@@ -53,8 +54,11 @@ public class CommentController implements CommentApi {
         //validates the fields of the request
         requestFieldsValidator.validate(errors);
 
-        //creates the comment, and gives result of its' success
-        boolean created = commentService.createComment(commentRequest);
+        //gets the successResponse after creating the comment
+        SuccessResponse successResponse = commentService.createComment(commentRequest);
+
+        //getting the success of the successResponse
+        boolean created = successResponse.isSuccess();
 
         //creates a message depending on the response
         String message = created ?
@@ -62,8 +66,8 @@ public class CommentController implements CommentApi {
                 "Comment Not Created";
 
         //creates the response depending on the results, which should be passed to front
-        Response<Boolean> response =
-                new Response<>(created, message, created);
+        Response<SuccessResponse> response =
+                new Response<>(created, message, successResponse);
 
         //returns the ResponseEntity, which includes the response, and the HttpStatus.OK on anytime, but the
         //response can differ

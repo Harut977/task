@@ -4,76 +4,81 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42cae5b9-d55f-45f9-9098-03c518b93453" name="Default Changelist" comment="ok">
+    <list default="true" id="42cae5b9-d55f-45f9-9098-03c518b93453" name="Default Changelist" comment="added documentation comments to classes and methods">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_197.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hsqldb_hsqldb_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InstructionAndJson/Comm-Not.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InstructionAndJson/task doc.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/task/api/base/response/SuccessResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/test/com/task/server/controller/comment/CommentControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/task.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/task/api/base/response/AllBaseResponse.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/com/task/api/base/response/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/task/api/base/response/BaseResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/com/task/api/base/response/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/task/api/base/response/Response.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/com/task/api/comment/CommentApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/task/api/comment/CommentApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/task/api/comment/request/CommentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/task/api/comment/request/CommentRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/com/task/api/comment/response/CommentResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/task/api/comment/response/CommentResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/task/api/notification/NotificationApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/task/api/notification/NotificationApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/task/api/notification/response/NotificationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/task/api/notification/response/NotificationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/task/api/base/response/AllBaseResponse.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api/target/classes/com/task/api/base/response/BaseResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/com/task/api/base/response/BaseResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/target/classes/com/task/api/base/response/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/com/task/api/base/response/Response.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/target/classes/com/task/api/comment/CommentApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/com/task/api/comment/CommentApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/task/api/comment/request/CommentRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/com/task/api/comment/request/CommentRequest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/target/classes/com/task/api/comment/response/CommentResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/com/task/api/comment/response/CommentResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/task/api/notification/response/NotificationResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/com/task/api/notification/response/NotificationResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/task/TaskApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/task/TaskApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/task/server/controller/comment/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/task/server/controller/comment/CommentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/task/server/controller/notification/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/task/server/controller/notification/NotificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/task/TaskApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/task/TaskApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/target/classes/com/task/server/controller/comment/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/task/server/controller/comment/CommentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/target/classes/com/task/server/controller/notification/NotificationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/task/server/controller/notification/NotificationController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/base/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/comment/entity/CommentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/comment/entity/CommentEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/comment/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/comment/mapper/CommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/comment/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/comment/repository/CommentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/comment/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/comment/service/CommentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/comment/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/comment/service/impl/CommentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/exception/handler/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/exception/handler/ErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/exception/handler/ErrorFieldResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/exception/handler/ErrorFieldResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/exception/handler/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/exception/handler/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/exception/handler/ExceptionHandlingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/exception/handler/ExceptionHandlingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/exception/handler/ValidationError.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/exception/handler/ValidationError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/exception/models/BaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/exception/models/BaseException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/exception/models/BaseExceptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/exception/models/BaseExceptionResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/exception/models/NotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/exception/models/NotReadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/exception/models/NotReadException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/notification/entity/NotificationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/notification/entity/NotificationEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/notification/mapper/NotificationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/notification/mapper/NotificationMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/notification/repository/NotificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/notification/repository/NotificationRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/notification/service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/notification/service/NotificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/notification/service/impl/NotificationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/notification/service/impl/NotificationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/task/service/validator/RequestFieldsValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/task/service/validator/RequestFieldsValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/project/service/exception/models/BaseExceptionResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/project/service/exception/models/NotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/project/service/exception/models/NotReadException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/base/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/base/BaseEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/entity/CommentEntity$CommentEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/entity/CommentEntity$CommentEntityBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/entity/CommentEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/entity/CommentEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/mapper/CommentMapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/mapper/CommentMapper$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/mapper/CommentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/mapper/CommentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/service/CommentService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/service/impl/CommentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/comment/service/impl/CommentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/handler/ErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/handler/ErrorCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/handler/ErrorFieldResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/handler/ErrorFieldResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/handler/ErrorResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/handler/ErrorResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/handler/ExceptionHandlingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/handler/ExceptionHandlingController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/handler/ValidationError.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/handler/ValidationError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/models/BaseException.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/exception/models/BaseException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/entity/NotificationEntity$NotificationEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/entity/NotificationEntity$NotificationEntityBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/entity/NotificationEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/entity/NotificationEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/mapper/NotificationMapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/mapper/NotificationMapper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/mapper/NotificationMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/mapper/NotificationMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/repository/NotificationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/repository/NotificationRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/service/NotificationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/service/NotificationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/service/impl/NotificationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/notification/service/impl/NotificationServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/project/mapper/ProjectMapper$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/project/mapper/ProjectMapper$3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/service/target/classes/com/task/service/validator/RequestFieldsValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/task/service/validator/RequestFieldsValidator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +90,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -93,20 +99,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lI0Mx7xqm1mUh4lU7cgtchGSlz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/service" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -117,21 +130,31 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.508046" />
-    <property name="settings.editor.selected.configurable" value="kite.configurable" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Harut\IdeaProjects\task\server\src\main\resources" />
+      <recent name="D:\Users\Harut\IdeaProjects\task\server\src\main\test" />
       <recent name="D:\Work\task\service" />
       <recent name="D:\Work\task\api" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Work\task\server" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.task.server.controller.comment" />
+      <recent name="com.task.server.controller.notification" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.task.controller.project" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CommentControllerTest.createComment">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -139,6 +162,25 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <option name="PACKAGE_NAME" value="com.task.server.controller.comment" />
+      <option name="MAIN_CLASS_NAME" value="com.task.server.controller.comment.CommentControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentControllerTest.createComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <option name="PACKAGE_NAME" value="com.task.server.controller.comment" />
+      <option name="MAIN_CLASS_NAME" value="com.task.server.controller.comment.CommentControllerTest" />
+      <option name="METHOD_NAME" value="createComment" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,6 +193,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.CommentControllerTest" />
+      <item itemvalue="JUnit.CommentControllerTest.createComment" />
+      <item itemvalue="Spring Boot.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CommentControllerTest.createComment" />
+        <item itemvalue="JUnit.CommentControllerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -167,8 +220,16 @@
       <workItem from="1608145795222" duration="34000" />
       <workItem from="1608194692955" duration="624000" />
       <workItem from="1608195360972" duration="331000" />
-      <workItem from="1608195710734" duration="12047000" />
+      <workItem from="1608195710734" duration="35345000" />
     </task>
+    <task id="LOCAL-00001" summary="added documentation comments to classes and methods">
+      <created>1608209365148</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608209365148</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,9 +247,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="added documentation comments to classes and methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="added documentation comments to classes and methods" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
